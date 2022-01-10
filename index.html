@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>The Domain of Ontology</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="center black">
+		<h1>THE DOMAIN OF ONTOLOGY</h1>
+		<h4>
+			a repository of everything :: by Exilaquote&ensp;&ensp;/&ensp;&ensp;edited
+			:: by Elmo
+		</h4>
+		<hr class="inverted" />
+		<h2>Ontology || the study of being, existence, and reality</h2>
+		<h5>[a branch of metaphysics [a sub-branch of philosophy]]</h5>
+		<div>
+			<div>
+				<img
+					id="pic"
+					class="expand inverted"
+					src="https://www.wired.com/wp-content/uploads/images_blogs/photos/uncategorized/2007/05/10/picture_20.jpg"
+					width="400"
+					height="200"
+				/>
+			</div>
+			<br /><i>"The Picture of Everything" by Howard Hallis</i>
+		</div>
+		<br />
+		<p class="para">
+			We know that this picture of everything is not everything.<br />
+			We're not in the picture, after all. But maybe you don't have to be,
+			because maybe you don't really exist! <br />What about the "things" that
+			cannot be seen, that which can never be painted or drawn?<br /><br />
+			How then must we identify everything there is? Can such things be
+			classified? And what are these things like?
+		</p>
+		<div class="leftcenter">
+			<ul>
+				<li>
+					Aristotle first described ontology when he called it "first
+					philosophy" in <i>Metaphysics</i> Book IV.
+				</li>
+				<li>
+					It became <i>ontologia</i> or "science of being." The field would then
+					be developed by Wolff, Husserl, and Quine.
+				</li>
+				<li>
+					And that's the limit of my google search abilities. No, I'm not going
+					to answer the questions I asked.
+				</li>
+				<li>
+					Perhaps such questions are not even real things, so we must not think
+					of them any further.
+				</li>
+			</ul>
+		</div>
+		<p class="para">
+			Now, name three [1 word] things to add to the repository of everything.
+			<br />The only condition is that you must think they
+			<i>actually exist in reality</i>.<br /><b
+				>Let us establish a Domain of Ontology!</b
+			>
+		</p>
+		<form action="conquer.html" id="blanks" method="GET">
+			<div class="three">
+				Entity première:&ensp;<input
+					type="text"
+					name="namea"
+					id="namea"
+					placeholder="homework"
+					required
+				/>
+			</div>
+			<br />
+			<div class="three">
+				Entity deuxième: &nbsp;<input
+					type="text"
+					name="nameb"
+					id="nameb"
+					placeholder="animated gollum"
+					required
+				/>
+			</div>
+			<br />
+			<div class="three">
+				Entity troisième: &nbsp;<input
+					type="text"
+					name="namec"
+					id="namec"
+					placeholder="banana bruise"
+					required
+				/>
+			</div>
+			<br /><br />
+			<button id="butt">Conquer the Void</button>
+		</form>
+		<script>
+			document.onkeypress = function (e) {
+				e = e || window.event;
+				if (e.keyCode === 13) {
+					document.documentElement.classList.toggle("dark");
+					document.documentElement.classList.toggle("black");
+					document.querySelectorAll(".inverted").forEach((result) => {
+						result.classList.toggle("invert");
+					});
+				}
+			};
+		</script>
+		<p id="future">
+			<br /><i
+				><b
+					>(Forthcoming in some parallel world maybe: php database storing all
+					inputs)</b
+				></i
+			>
+		</p>
+	</body>
+</html>

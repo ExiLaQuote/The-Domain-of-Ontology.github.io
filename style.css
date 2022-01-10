@@ -1,0 +1,184 @@
+h1 {
+	color: #1561ad;
+	font-size: 400%;
+	font-family: "colonna mt regular";
+	margin-top: 70px;
+}
+h2,
+h5 {
+	font-family: "calibri";
+}
+h4 {
+	font-size: 200%;
+	font-family: monospace;
+}
+#pic {
+	border-width: 30 30 30 30;
+	border: 20px double rgb(233, 109, 171);
+}
+#how {
+	font-weight: 100px;
+}
+hr {
+	height: 10px;
+	width: 90%;
+	border-radius: 100%;
+	background-color: #e6e33b;
+	border-width: 0 0 0 0;
+	margin-bottom: 50px;
+}
+.leftcenter {
+	display: inline-block;
+	text-align: center;
+}
+ul {
+	text-align: left;
+	line-height: 35px;
+	font-family: Georgia;
+	font-size: 15px;
+}
+li::marker {
+	color: rgb(233, 109, 171);
+}
+li::marker {
+	font-size: 20px;
+}
+.center {
+	text-align: center;
+}
+.expand {
+	width: 30%;
+	height: 30%;
+	transition-property: width;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0ms;
+}
+.expand:hover {
+	width: 50%;
+	height: 50%;
+}
+.para {
+	font-size: 22px;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 30px;
+	font-family: calibri;
+}
+#future {
+	font-size: 13px;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input[type="text"] {
+	width: 12%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: monospace;
+	border: 5px solid #61a6eb;
+	border-radius: 5px;
+	text-align: center;
+}
+#butt {
+	box-sizing: border-box;
+	font-size: 23px;
+	font-family: monospace;
+	border: 5px solid rgb(233, 93, 93);
+	text-align: center;
+	width: 250px;
+	height: 50px;
+	border-radius: 100px;
+}
+#butt:hover {
+	background-color: rgb(36, 34, 35);
+	color: white;
+	cursor: pointer;
+}
+.three {
+	text-align: center;
+	line-height: 35px;
+	font-family: Georgia;
+}
+::selection {
+	background-color: rgb(250, 250, 149);
+}
+#results {
+	line-height: 160%;
+	font-size: 50px;
+	word-break: break-all;
+	padding: 20px 10px 20px 10px;
+	width: 45%;
+	box-sizing: border-box;
+	background-color: rgb(233, 109, 171);
+	border: 20px double rgb(14, 9, 11);
+	margin: auto;
+	border-radius: 40px;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.huzzah {
+	margin-top: 20px;
+	font-size: 30px;
+	line-height: 60px;
+	font-family: hack;
+}
+#huz {
+	padding-top: 20px;
+}
+#zah {
+	font-size: 30px;
+	line-height: 40px;
+}
+.expanddark {
+	font-size: 1.5px;
+	transition-property: font-size;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0ms;
+	margin: auto;
+	position: relative;
+	margin-top: -20px;
+	font-family: "consolas";
+	color: rgb(65, 189, 121);
+	font-weight: bold;
+}
+.expanddark:hover {
+	font-size: 100%;
+	position: relative;
+}
+.links {
+	position: relative;
+	line-height: 30px;
+	font-size: 40px;
+	margin: auto;
+	margin-top: 50px;
+	font-family: "consolas";
+	font-weight: 1000;
+	justify-content: center;
+	display: flex;
+	column-gap: 100px;
+	align-self: center;
+}
+.time:hover {
+	opacity: 70%;
+}
+.time {
+	color: rgb(96, 103, 201);
+}
+.code {
+	color: rgb(199, 202, 28);
+}
+.code:hover {
+	opacity: 70%;
+}
+.dark {
+	filter: invert(1) hue-rotate(180deg);
+}
+.invert {
+	filter: invert(1) hue-rotate(180deg);
+}
+.black {
+	background-color: #ffffff;
+}

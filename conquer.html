@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Your Ontological Inventory</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="center black">
+		<p class="huzzah" id="huz">Huzzah! Your ontological inventory now has:</p>
+		<div id="results" class="resultsdark"></div>
+		<br />
+		<p class="huzzah" id="zah">We're done here.<br />Where will you go next?</p>
+		<div class="expanddark inverted">
+			Psst, hey, you found me!<br />Press the [enter] key.<br />
+			Also check out the previous page!
+		</div>
+		<div class="links">
+			<a href="/" style="text-decoration: none" class="time"
+				>Woah, Time Travel!</a
+			><br /><br />
+			<a
+				href="https://github.com/ExiLaQuote/The-Domain-of-Ontology.github.io.git"
+				style="text-decoration: none"
+				class="code inverted"
+				>Check out the Code</a
+			>
+		</div>
+		<script>
+			const resultsList = document.getElementById("results");
+			new URLSearchParams(window.location.search).forEach((value) => {
+				resultsList.append(`${value}`);
+				resultsList.append(document.createElement("br"));
+			});
+			document.onkeypress = function (e) {
+				e = e || window.event;
+				if (e.keyCode === 13) {
+					document.documentElement.classList.toggle("dark");
+					document.querySelectorAll(".inverted").forEach((result) => {
+						result.classList.toggle("invert");
+					});
+				}
+			};
+		</script>
+	</body>
+</html>

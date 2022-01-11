@@ -15,5 +15,8 @@ This is my first webpage, written from scratch using HTML and CSS (and DOM manip
 Don't forget to look closely. You might miss out on a special feature. . .
 ```
 ```
+Click on the "index.html", "conquer.html", and "style.css" files to see the code!
+```
+```
 The website is an experiment. It's just meant to be "cool", that's all hehe.
 ```

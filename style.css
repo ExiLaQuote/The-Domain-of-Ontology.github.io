@@ -132,7 +132,7 @@ input[type="text"] {
 	line-height: 40px;
 }
 .expanddark {
-	font-size: 1.5px;
+	font-size: 2px;
 	transition-property: font-size;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in-out;

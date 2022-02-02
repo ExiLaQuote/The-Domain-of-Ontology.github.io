@@ -1,7 +1,5 @@
 # The-Domain-of-Ontology.github.io
 
-One Paragraph of project description goes here
-
 ## Click the link here to view the webpage!
 
 https://exilaquote.github.io/The-Domain-of-Ontology.github.io/

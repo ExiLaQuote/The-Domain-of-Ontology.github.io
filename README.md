@@ -18,3 +18,6 @@ Click on the "index.html", "conquer.html", and "style.css" files to see the code
 ```
 The website is an experiment. It's just meant to be "cool" and test out features. That's all hehe.
 ```
+```
+time: 23.5 hours
+```
